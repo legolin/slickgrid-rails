@@ -1,5 +1,5 @@
 //= require jquery
-//= require jquery.ui.all
+//= require jquery-ui
 //= require jquery/event/drag
 //= require jquery/event/drop
 //= require slick/core
