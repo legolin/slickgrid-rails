@@ -5,8 +5,8 @@ Gem::Specification.new do |gem|
   gem.version       = "0.3.3"
   gem.authors       = ["Benedikt Böhm"]
   gem.email         = ["benedikt.boehm@madvertise.com"]
-  gem.description   = %q{SlickGrid Integration for Rails 3+}
-  gem.summary       = %q{SlickGrid Integration for Rails 3+}
+  gem.description   = %q{SlickGrid Integration for Rails 4.x}
+  gem.summary       = %q{SlickGrid Integration for Rails 4.x}
   gem.homepage      = "https://github.com/madvertise/slickgrid-rails"
 
   gem.add_dependency "railties", "~> 4.0"
@@ -15,6 +15,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "jquery-dragdrop-rails"
   gem.add_dependency "jquery-rails"
   gem.add_dependency "jquery-ui-rails"
+  gem.add_dependency "jquery-migrate-rails"
   gem.add_dependency "sass-rails"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
